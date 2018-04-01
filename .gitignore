@@ -17,8 +17,6 @@ out
 build
 .gradle
 gradlew*
-gradle/*
-!gradle/scripts
 
 # other
 eclipse
