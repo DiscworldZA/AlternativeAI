@@ -11,8 +11,7 @@ import java.util.Random;
 public class AlternativeAIEntities {
 	public static int modEntityId = 0;
 
-	private static void RegisterEntityAI(Class<? extends EntityLivingAI> entity, String Name)
-	{
+	private static void RegisterEntityAI(Class<? extends EntityLivingAI> entity, String Name) {
 		long x = entity.getName().hashCode();
 		Random random = new Random(x);
 		int eggPrimary = random.nextInt() * 16777215; // first egg color
@@ -21,7 +20,6 @@ public class AlternativeAIEntities {
 		modEntityId++;
 	}
 
-	public static void init()
-	{
+	public static void init() {
 	}
 }

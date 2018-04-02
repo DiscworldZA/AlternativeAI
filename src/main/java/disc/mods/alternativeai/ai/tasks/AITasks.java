@@ -10,8 +10,7 @@ public class AITasks extends SimpleObjectQueue<AITask, EntityLivingAI> {
 	}
 
 	@Override
-	public void add(AITask t)
-	{
+	public void add(AITask t) {
 		super.add(t);
 		t.queueActions();
 	}
