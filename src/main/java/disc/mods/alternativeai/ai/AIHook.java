@@ -25,8 +25,8 @@ public class AIHook extends EntityAIBase {
 
 	@Override
 	public void updateTask() {
-		if(handler.isServerWorld()) {
-			if(!handler.aiTasks.current.updateTask()) {
+		if (handler.isServerWorld()) {
+			if (!handler.aiTasks.current.updateTask()) {
 				handler.aiTasks.pushBack();
 				handler.aiTasks.pop();
 			}
@@ -40,7 +40,7 @@ public class AIHook extends EntityAIBase {
 
 	@Override
 	public void resetTask() {
-		if(handler.isServerWorld()) {
+		if (handler.isServerWorld()) {
 			handler.aiTasks.current.resetTask();
 		}
 	}

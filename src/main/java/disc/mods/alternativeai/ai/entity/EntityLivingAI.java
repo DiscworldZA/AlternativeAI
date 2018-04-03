@@ -29,8 +29,7 @@ public abstract class EntityLivingAI extends EntityLiving implements IQueueHandl
 		return this;
 	}
 
-	public double getMovementSpeed()
-	{
+	public double getMovementSpeed() {
 		return 0.42D;
 	}
 
