@@ -13,4 +13,8 @@ public class References {
 		public final static String Client = "disc.mods.alternativeai.proxy.ClientProxy";
 		public final static String Server = "disc.mods.alternativeai.proxy.ServerProxy";
 	}
+
+	public static class Entity {
+		public final static String Lumberjack = "lumberjack";
+	}
 }
