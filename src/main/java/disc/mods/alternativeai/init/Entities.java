@@ -6,7 +6,6 @@ import disc.mods.alternativeai.client.renderer.entity.RenderHumanoid;
 import disc.mods.alternativeai.ref.References;
 import disc.mods.core.DiscMod;
 import disc.mods.core.util.ResourceLocationHelper;
-import net.minecraft.client.renderer.entity.Render;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 

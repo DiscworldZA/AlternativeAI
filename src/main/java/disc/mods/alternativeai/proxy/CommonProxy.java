@@ -16,6 +16,7 @@ public abstract class CommonProxy implements IProxyBase {
 
 	@Override
 	public void registerCapabilities() {
+
 	}
 
 	@Override
