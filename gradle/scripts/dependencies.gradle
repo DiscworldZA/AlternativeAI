@@ -3,8 +3,12 @@ repositories {
     mavenCentral()
 
     maven {
-        name "FireBall API Depot"
-        url "http://dl.tsr.me/artifactory/libs-release/"
+        name = "FireBall API Depot"
+        url = "http://dl.tsr.me/artifactory/libs-release/"
+    }
+    maven {
+        name = "Tehnut maven"
+        url = "https://tehnut.info/maven"
     }
     maven {
         // location of the maven that hosts JEI files

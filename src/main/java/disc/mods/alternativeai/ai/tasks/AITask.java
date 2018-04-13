@@ -14,7 +14,7 @@ public abstract class AITask implements IQueueable<EntityLivingAI> {
 
 	public abstract boolean shouldExecute();
 
-	public abstract boolean canBeFullfilled();
+	public abstract boolean canBeFulfilled();
 
 	public void startExecuting() {
 
